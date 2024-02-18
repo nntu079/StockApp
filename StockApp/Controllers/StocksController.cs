@@ -45,6 +45,7 @@ namespace StockApp.Controllers
         // GET: Stocks/Create
         public IActionResult Create()
         {
+            ViewBag.Layout = "~/Views/Shared/_Layout2.cshtml";
             return View();
         }
 
